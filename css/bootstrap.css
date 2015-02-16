@@ -11,7 +11,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin: 30px 100px 0 100px;
 }
 article,
 aside,
@@ -62,7 +62,7 @@ dfn {
 }
 h1 {
   margin: .67em 0;
-  font-size: 2em;
+  font-size: 120%;
 }
 mark {
   color: #000;
@@ -1254,7 +1254,8 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 30px;
+  margin: 20px 20px 20px 0;
 }
 h2,
 .h2 {
@@ -1903,7 +1904,7 @@ pre code {
     margin-left: 25%;
   }
   .col-sm-offset-2 {
-    margin-left: 16.66666667%;
+/*    margin-left: 16.66666667%;*/
   }
   .col-sm-offset-1 {
     margin-left: 8.33333333%;
@@ -3022,6 +3023,7 @@ fieldset[disabled] .btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
+  margin: 10px 10px 0 0;
 }
 .btn-default:hover,
 .btn-default:focus,
